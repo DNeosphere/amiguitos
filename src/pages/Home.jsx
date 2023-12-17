@@ -1,27 +1,11 @@
 import { Link } from "react-router-dom";
-
+import { useGetData } from "../hooks/useGetData";
 import InfoCard from "../components/InfoCard";
 import "./styles/home.scss";
 
 function Home() {
-  const steps = [
-    {
-      step: 1,
-      what: "Busca el amiguito que más te guste",
-    },
-    {
-      step: 2,
-      what: "Confrima que su personalidad se adapte a tu estilo de vida",
-    },
-    {
-      step: 3,
-      what: "Llena los datos!",
-    },
-    {
-      step: 4,
-      what: "Ve a recogerlo",
-    },
-  ];
+  const { data: steps } = useGetData("steps");
+
   return (
     <div className="home content">
       <section className="home__hero">
@@ -41,7 +25,7 @@ function Home() {
       <section className="home__steps">
         <h2>Cómo hacerlo?</h2>
         <div className="home__steps__container">
-          {steps.map((step) => (
+          {steps?.map((step) => (
             <InfoCard props={step} key={step.step} />
           ))}
         </div>

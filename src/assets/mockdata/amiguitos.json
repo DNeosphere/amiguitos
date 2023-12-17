@@ -58,5 +58,95 @@
     "size": "XS",
     "weight": "2.5kg",
     "notes": "Chihuaha, convive con gatos, otros perros y niños. No necesita mucha actividad fisica"
+  },
+  {
+    "id": "7",
+    "name": "Kumpf",
+    "foto": "",
+    "especie": "Perro",
+    "age": "9 año",
+    "size": "XL",
+    "weight": "30kg",
+    "notes": "Braco Alemán, es un cazador entrenado, muy activo. Convive con niños y otros perros"
+  },
+  {
+    "id": "8",
+    "name": "Michi",
+    "foto": "",
+    "especie": "Gato",
+    "age": "1 año",
+    "size": "XS",
+    "weight": "2.5kg",
+    "notes": "Muy tranquila, le encanta jugar en su gimnasio, convive con perros y niños"
+  },
+  {
+    "id": "9",
+    "name": "Gordis",
+    "foto": "",
+    "especie": "Gato",
+    "age": "3 año",
+    "size": "S",
+    "weight": "3kg",
+    "notes": "Es el rey en su reino, muy cariñoso. No convie con perros"
+  },
+  {
+    "id": "10",
+    "name": "Cookie",
+    "foto": "",
+    "especie": "Gato",
+    "age": "1 año",
+    "size": "XS",
+    "weight": "2.5kg",
+    "notes": "Acostumbrada a andar libre, se va de casa y vuelve en la noche. Es muy tranquila y cariñosa"
+  },
+  {
+    "id": "11",
+    "name": "Toffee",
+    "foto": "",
+    "especie": "Perro",
+    "age": "3 año",
+    "size": "M",
+    "weight": "10kg",
+    "notes": "El perro más hermoso del universo, convive con otros perros y gatos"
+  },
+  {
+    "id": "12",
+    "name": "Colito",
+    "foto": "",
+    "especie": "Perro",
+    "age": "5 años",
+    "size": "M",
+    "weight": "10kg",
+    "notes": "El perro más hermoso del universo, convive con otros perros y gatos"
+  },
+  {
+    "id": "13",
+    "name": "Kuri",
+    "foto": "",
+    "especie": "Perro",
+    "age": "3 año",
+    "size": "S",
+    "weight": "8kg",
+    "notes": "El perro más hermoso del universo, convive con otros perros y gatos"
+  },
+  {
+    "id": "14",
+    "name": "Chester",
+    "foto": "",
+    "especie": "Perro",
+    "age": "3 año",
+    "size": "L",
+    "weight": "20kg",
+    "notes": "El perro más hermoso del universo, convive con otros perros y gatos"
+  },
+  {
+    "id": "15",
+    "name": "Pepe",
+    "foto": "",
+    "especie": "Gato",
+    "age": "3 año",
+    "size": "M",
+    "weight": "10kg",
+    "notes": "El perro más hermoso del universo, convive con otros perros y gatos"
   }
 ]
