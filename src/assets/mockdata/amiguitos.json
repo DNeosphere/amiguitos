@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Rosita",
+    "foto": "",
+    "especie": "Perro",
+    "age": "1 año",
+    "size": "M",
+    "weight": "11kg",
+    "notes": "Tranquila, muy amorosa, puede convivir con otros perros y niños"
+  },
+  {
+    "id": "2",
+    "name": "Arya",
+    "foto": "",
+    "especie": "Perro",
+    "age": "6 años",
+    "size": "XL",
+    "weight": "40kg",
+    "notes": "Husky siberiano, muy calmada, convive con otros perros y niños, requiere actividad fisica intensa"
+  },
+  {
+    "id": "3",
+    "name": "Tobias",
+    "foto": "",
+    "especie": "Perro",
+    "age": "3 años",
+    "size": "M",
+    "weight": "15kg",
+    "notes": "Cruce de labrador, calmado, convive con otros perros y niños"
+  },
+  {
+    "id": "4",
+    "name": "Gretel",
+    "foto": "",
+    "especie": "Perro",
+    "age": "4 años",
+    "size": "L",
+    "weight": "20kg",
+    "notes": "Instinto de cazadora, requiere actividad fisica intensa"
+  },
+  {
+    "id": "5",
+    "name": "Suki",
+    "foto": "",
+    "especie": "Perro",
+    "age": "1 año",
+    "size": "XS",
+    "weight": "2.5kg",
+    "notes": "Chihuaha, convive con gatos, otros perros y niños. No necesita mucha actividad fisica"
+  },
+  {
+    "id": "6",
+    "name": "Daki",
+    "foto": "",
+    "especie": "Perro",
+    "age": "1 año",
+    "size": "XS",
+    "weight": "2.5kg",
+    "notes": "Chihuaha, convive con gatos, otros perros y niños. No necesita mucha actividad fisica"
+  }
+]

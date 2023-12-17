@@ -1,4 +1,32 @@
 .navbar {
+  height: 5vh;
   display: flex;
-}
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
 
+  &__logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    &__paw {
+      margin-right: 1rem;
+      color: $primaryOrange;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 40%;
+
+    li {
+      margin-left: 1rem;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.infocard {
+  width: 14rem;
+  height: 18rem;
+  padding: 2rem;
+  border: 1px solid $primaryOrange;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+
+  &__icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+
+    color: $primaryOrange;
+  }
+}
