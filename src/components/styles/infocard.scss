@@ -1,7 +1,8 @@
 .infocard {
   width: 14rem;
-  height: 18rem;
+  height: 16rem;
   padding: 2rem;
+  margin-right: 1rem;
   border: 1px solid $primaryOrange;
   border-radius: 15px;
   display: flex;
@@ -18,5 +19,9 @@
     height: 2rem;
 
     color: $primaryOrange;
+  }
+
+  h2 {
+    margin: 0;
   }
 }

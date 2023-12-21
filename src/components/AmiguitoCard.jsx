@@ -36,9 +36,11 @@ function AmiguitoCard({ props }) {
           {props.notes}
         </p>
       </div>
-      <Link to={`/amiguito/${props.id}`}>
-        <button>Ven a conocerme</button>
-      </Link>
+      <div className="amiguito__button-wrapper">
+        <Link to={`/amiguito/${props.id}`}>
+          <button>Ven a conocerme</button>
+        </Link>
+      </div>
     </div>
   );
 }
