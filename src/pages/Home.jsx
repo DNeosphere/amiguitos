@@ -13,7 +13,7 @@ function Home() {
           <h1 className="home__title">Ven y encuentra tu amiguito...</h1>
           <div className="home__dog-image">
             <img
-              src="src/assets/home-dogs.png"
+              src="https://i.ibb.co/V9XZyT2/home-dogs.png"
               alt="Varios perritos sin raza"
             />
           </div>
