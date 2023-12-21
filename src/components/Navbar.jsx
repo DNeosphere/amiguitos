@@ -15,8 +15,9 @@ function Navbar() {
       </div>
 
       <ul className="navbar__list">
-        <li className="navbar__list-item">Buscar amiguitos</li>
-        <li className="navbar__list-item">Donar</li>
+        <Link to="/buscar">
+          <li className="navbar__list-item">Buscar amiguitos</li>
+        </Link>
       </ul>
     </div>
   );

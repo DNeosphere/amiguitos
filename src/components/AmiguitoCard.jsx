@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./styles/amiguito.scss";
 
 function AmiguitoCard({ props }) {
@@ -34,7 +36,9 @@ function AmiguitoCard({ props }) {
           {props.notes}
         </p>
       </div>
-      <button>Ven a conocerme</button>
+      <Link to={`/amiguito/${props.id}`}>
+        <button>Ven a conocerme</button>
+      </Link>
     </div>
   );
 }

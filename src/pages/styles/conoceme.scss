@@ -1,0 +1,37 @@
+.conoceme {
+  &__container {
+    padding: 2rem 12rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  span {
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  &__logo {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+
+    &__paw {
+      margin-right: 1rem;
+      color: $primaryOrange;
+    }
+  }
+}

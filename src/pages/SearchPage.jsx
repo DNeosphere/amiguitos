@@ -26,7 +26,7 @@ function Search() {
   const handleChangePerro = (value) => {
     setCheckedPerro(!checkedPerro);
     if (value.target.checked) {
-      const onlyDogs = amiguitos.filter(
+      const onlyDogs = [...amiguitos].filter(
         (amiguito) => amiguito.especie === "Perro"
       );
       setData(onlyDogs);
