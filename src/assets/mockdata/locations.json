@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Librería Central",
+    "city": "Ciudad de México",
+    "address": "Av. Reforma 123",
+    "phone": "+52 55 1234 5678",
+    "books": [
+      {"id": 3},
+      {"id": 7},
+      {"id": 2},
+      {"id": 8},
+      {"id": 1}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Libros del Mundo",
+    "city": "Buenos Aires",
+    "address": "Calle Corrientes 456",
+    "phone": "+54 11 9876 5432",
+    "books": [
+      {"id": 5},
+      {"id": 10},
+      {"id": 6},
+      {"id": 4},
+      {"id": 9}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Book Emporium",
+    "city": "New York",
+    "address": "Broadway St. 789",
+    "phone": "+1 212-555-1234",
+    "books": [
+      {"id": 1},
+      {"id": 9},
+      {"id": 3},
+      {"id": 8},
+      {"id": 4}
+    ]
+  }
+]

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: black;
+  background-color: $primary;
   color: white;
   font-size: 1rem;
 
@@ -15,7 +15,7 @@
 
     &__paw {
       margin-right: 1rem;
-      color: $primaryOrange;
+      color: $primary;
     }
   }
 
@@ -31,7 +31,7 @@
     }
 
     li:hover {
-      color: $primaryOrange;
+      color: white;
     }
   }
 }

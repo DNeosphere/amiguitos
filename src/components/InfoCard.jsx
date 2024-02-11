@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaw, faBone, faDog, faCat } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faBookOpen, faBookOpenReader } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/infocard.scss";
 
 function InfoCard({ props }) {
-  const icons = [faPaw, faBone, faDog, faCat];
+  const icons = [faSearch, faBookOpen, faBookOpenReader];
   return (
     <div className="infocard">
       <h2>Paso {props.step}</h2>

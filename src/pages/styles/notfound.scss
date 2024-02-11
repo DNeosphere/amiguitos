@@ -16,29 +16,30 @@
 }
 
 .four_zero_four_bg {
-  background-image: url(https://i.gifer.com/4GwI.gif);
-  width: 600px;
-  background-size: cover;
-  height: 500px;
+  background-image: url('src/assets/img/404.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width:100%;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
 
 .four_zero_four_bg h1 {
-  font-size: 80px;
+  font-size: 5rem;
 }
 
 .four_zero_four_bg h3 {
-  font-size: 80px;
+  font-size: 5rem;
 }
 
 .link_404 {
   color: #fff !important;
   padding: 10px 20px;
-  background: $primaryOrange;
+  background: $primary;
   margin: 20px 0;
   display: inline-block;
 }
 .contant_box_404 {
-  margin-top: -50px;
 }

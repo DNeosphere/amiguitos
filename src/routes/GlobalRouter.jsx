@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import Search from "../pages/SearchPage";
 import Navbar from "../components/Navbar";
-import Conoceme from "../pages/Conoceme";
+import BookDetail from "../pages/BookDetail";
 
 function GlobalRouter() {
   return (
@@ -19,7 +19,7 @@ function GlobalRouter() {
           }
         />
         <Route
-          path="/buscar"
+          path="/search"
           element={
             <Layout>
               <Search />
@@ -27,10 +27,10 @@ function GlobalRouter() {
           }
         />
         <Route
-          path="/amiguito/:id"
+          path="/book/:id"
           element={
             <Layout>
-              <Conoceme />
+              <BookDetail />
             </Layout>
           }
         />

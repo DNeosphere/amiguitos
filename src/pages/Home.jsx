@@ -10,15 +10,15 @@ function Home() {
     <div className="home content">
       <section className="home__hero">
         <div className="home__title-wrapper">
-          <h1 className="home__title">Ven y encuentra tu amiguito...</h1>
-          <div className="home__dog-image">
+          <h1 className="home__title">Ven y encuentra el libro que deseas...</h1>
+          <div className="home__home-image">
             <img
-              src="https://i.ibb.co/V9XZyT2/home-dogs.png"
-              alt="Varios perritos sin raza"
+              src="src/assets/img/home.png"
+              alt="Varios libros de todos los géneros"
             />
           </div>
         </div>
-        <Link to="/buscar">
+        <Link to="/search">
           <button className="home__cta">Aquí</button>
         </Link>
       </section>

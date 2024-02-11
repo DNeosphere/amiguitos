@@ -1,50 +1,51 @@
 import { useState } from "react";
 
-import AmiguitoCard from "../components/AmiguitoCard";
+import BookCard from "../components/BookCard";
 import SearchBar from "../components/SearchBar";
 import { useGetData } from "../hooks/useGetData";
 import "./styles/search.scss";
 
 function Search() {
-  const { data: amiguitos, setData } = useGetData("amiguitos");
-  const [checkedGato, setCheckedGato] = useState(false);
-  const [checkedPerro, setCheckedPerro] = useState(false);
-  const { data: allAmiguitos } = useGetData("amiguitos");
+  const { data: books, setData } = useGetData("books");
+  const [checkedES, setCheckedES] = useState(false);
+  const [checkedEN, setCheckedEN] = useState(false);
+  const { data: allBooks } = useGetData("books");
 
-  const handleChangeGato = (value) => {
-    setCheckedGato(!checkedGato);
+
+  const handleChangeES = (value) => {
+    setCheckedES(!checkedES);
     if (value.target.checked) {
-      const onlyCats = [...amiguitos].filter(
-        (amiguito) => amiguito.especie === "Gato"
+      const onlyES = [...books].filter(
+        (book) => book.language === "ES"
       );
-      setData(onlyCats);
+      setData(onlyES);
     } else {
-      setData(allAmiguitos);
+      setData(allBooks);
     }
   };
 
-  const handleChangePerro = (value) => {
-    setCheckedPerro(!checkedPerro);
+  const handleChangeEN = (value) => {
+    setCheckedEN(!checkedEN);
     if (value.target.checked) {
-      const onlyDogs = [...amiguitos].filter(
-        (amiguito) => amiguito.especie === "Perro"
+      const onlyEN = [...books].filter(
+        (book) => book.language === "EN"
       );
-      setData(onlyDogs);
+      setData(onlyEN);
     } else {
-      setData(allAmiguitos);
+      setData(allBooks);
     }
   };
 
   return (
     <div className="search content">
       <SearchBar
-        props={(checkedGato, checkedPerro)}
-        handleChangeGato={handleChangeGato}
-        handleChangePerro={handleChangePerro}
+        props={(checkedES, checkedEN)}
+        handleChangeES={handleChangeES}
+        handleChangeEN={handleChangeEN}
       />
-      <div className="search__amiguitos-container">
-        {amiguitos?.map((amiguito) => (
-          <AmiguitoCard key={amiguito.id} props={amiguito} />
+      <div className="search__books-container">
+        {books?.map((book) => (
+          <BookCard key={book.id} props={book} />
         ))}
       </div>
     </div>

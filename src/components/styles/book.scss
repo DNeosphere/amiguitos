@@ -1,4 +1,4 @@
-.amiguito {
+.book {
   width: 21rem;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
     justify-content: space-between;
   }
 
-  &__foto {
+  &__image {
     margin-top: 1rem;
     width: 18rem;
     height: 18rem;
@@ -44,7 +44,7 @@
   }
 
   button {
-    background-color: $primaryBlack;
+    background-color: $primary;
     color: white;
     font-size: 1.3rem;
     border: none;

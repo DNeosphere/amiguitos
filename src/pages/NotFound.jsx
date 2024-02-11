@@ -7,7 +7,6 @@ function NotFound() {
       <section className="page_404 content">
         <div className="container">
           <div className="four_zero_four_bg">
-            <h1 className="text-center ">404</h1>
           </div>
 
           <div className="contant_box_404">

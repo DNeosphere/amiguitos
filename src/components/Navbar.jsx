@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaw } from "@fortawesome/free-solid-svg-icons";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/navbar.scss";
 
@@ -9,14 +9,14 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar__logo">
         <Link to="/">
-          <FontAwesomeIcon className="navbar__logo__paw" icon={faPaw} />
-          Amiguitos
+          <FontAwesomeIcon className="navbar__logo__paw" icon={faBook} />
+          Ubook
         </Link>
       </div>
 
       <ul className="navbar__list">
-        <Link to="/buscar">
-          <li className="navbar__list-item">Buscar amiguitos</li>
+        <Link to="/search">
+          <li className="navbar__list-item">Buscar libros</li>
         </Link>
       </ul>
     </div>

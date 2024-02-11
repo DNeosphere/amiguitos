@@ -3,7 +3,7 @@
   height: 16rem;
   padding: 2rem;
   margin-right: 1rem;
-  border: 1px solid $primaryOrange;
+  border: 1px solid $primary;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
     width: 2rem;
     height: 2rem;
 
-    color: $primaryOrange;
+    color: $primary;
   }
 
   h2 {

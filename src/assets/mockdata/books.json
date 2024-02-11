@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "El código Da Vinci",
+    "description": "Una novela de misterio y conspiración que sigue al simbologista Robert Langdon mientras investiga un asesinato en el Louvre y desenreda un misterio que podría sacudir los cimientos del cristianismo.",
+    "isbn": 9780307474278,
+    "author": "Dan Brown",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Misterio",
+    "language": "ES"
+  },
+  {
+    "id": 2,
+    "name": "1984",
+    "description": "Una novela distópica que presenta un futuro totalitario y vigilado por el Gran Hermano, donde la libertad individual está severamente restringida y el pensamiento independiente es castigado.",
+    "isbn": 9780547249643,
+    "author": "George Orwell",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Ciencia ficción",
+    "language": "ES"
+  },
+  {
+    "id": 3,
+    "name": "Orgullo y prejuicio",
+    "description": "Una novela romántica clásica que sigue las complicadas relaciones de las hermanas Bennet y sus encuentros con el arrogante Sr. Darcy.",
+    "isbn": 9780141439518,
+    "author": "Jane Austen",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Romance",
+    "language": "ES"
+  },
+  {
+    "id": 4,
+    "name": "Matar a un ruiseñor",
+    "description": "Una novela clásica que explora temas de raza e injusticia en la sociedad sureña de Estados Unidos a través de los ojos de una niña llamada Scout Finch.",
+    "isbn": 9788478884450,
+    "author": "Harper Lee",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Ficción contemporánea",
+    "language": "ES"
+  },
+  {
+    "id": 5,
+    "name": "El señor de los anillos: La comunidad del anillo",
+    "description": "La primera entrega de la épica trilogía de fantasía que sigue la búsqueda de un grupo de personajes para destruir un anillo mágico y derrotar al Señor Oscuro Sauron.",
+    "isbn": 9788445071406,
+    "author": "J.R.R. Tolkien",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Fantasía",
+    "language": "ES"
+  },
+  {
+    "id": 6,
+    "name": "La sombra del viento",
+    "description": "Una novela que sigue al joven Daniel Sempere mientras descubre un libro misterioso que lo lleva a investigar la vida del autor y desenterrar secretos oscuros del pasado.",
+    "isbn": 9780307947308,
+    "author": "Carlos Ruiz Zafón",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Ficción gótica",
+    "language": "ES"
+  },
+  {
+    "id": 7,
+    "name": "Harry Potter y la piedra filosofal",
+    "description": "El primer libro en la serie de Harry Potter, que sigue las aventuras del joven mago mientras asiste a la Escuela de Magia y Hechicería de Hogwarts y enfrenta a su némesis, Lord Voldemort.",
+    "isbn": 9788478884450,
+    "author": "J.K. Rowling",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Fantasía",
+    "language": "ES"
+  },
+  {
+    "id": 8,
+    "name": "Crónica de una muerte anunciada",
+    "description": "Una novela que relata los eventos que conducen al asesinato de Santiago Nasar por los hermanos Vicario, en un pueblo donde todo el mundo sabe lo que va a suceder, excepto la víctima.",
+    "isbn": 9780307474728,
+    "author": "Gabriel García Márquez",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Ficción contemporánea",
+    "language": "ES"
+  },
+  {
+    "id": 9,
+    "name": "El hobbit",
+    "description": "Una aventura clásica que sigue al hobbit Bilbo Bolsón mientras se une a un grupo de enanos y al mago Gandalf en una misión para recuperar un tesoro custodiado por el dragón Smaug.",
+    "isbn": 9780345339683,
+    "author": "J.R.R. Tolkien",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Fantasía",
+    "language": "ES"
+  },
+  {
+    "id": 10,
+    "name": "To Kill a Mockingbird",
+    "description": "A classic novel that explores themes of race and injustice in the southern United States through the eyes of a young girl named Scout Finch.",
+    "isbn": 9780061120084,
+    "author": "Harper Lee",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/...",
+    "genre": "Fiction",
+    "language": "EN"
+  }
+]

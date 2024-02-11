@@ -1,18 +1,14 @@
 [
   {
     "step": 1,
-    "what": "Busca el amiguito que más te guste"
+    "what": "Busca el libro que más te guste"
   },
   {
     "step": 2,
-    "what": "Confrima que su personalidad se adapte a tu estilo de vida"
+    "what": "Ponte en contacto con la tienda/biblioteca"
   },
   {
     "step": 3,
-    "what": "Ponte en contacto con el refugio"
-  },
-  {
-    "step": 4,
-    "what": "Ve a recogerlo"
+    "what": "Ve a recogerlo o recibelo a domicilio"
   }
 ]

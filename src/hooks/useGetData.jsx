@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
-import amiguitos from "../assets/mockdata/amiguitos.json";
+import books from "../assets/mockdata/books.json";
 import steps from "../assets/mockdata/steps.json";
-import locaciones from "../assets/mockdata/locaciones.json";
+import locations from "../assets/mockdata/locations.json";
 
 export function useGetData(dataToGet) {
   const [data, setData] = useState(null);
@@ -10,7 +10,7 @@ export function useGetData(dataToGet) {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const availableData = { amiguitos, steps, locaciones };
+    const availableData = { books, steps, locations };
     (function () {
       try {
         setLoading(true);
